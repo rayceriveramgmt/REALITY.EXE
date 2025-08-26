@@ -1,0 +1,50 @@
+body {
+  background-color: #000;
+  color: #33ff33;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.boot-screen {
+  animation: fadeOut 2s ease 3s forwards;
+}
+
+.interface.hidden {
+  display: none;
+}
+
+.interface {
+  display: block;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.file {
+  margin: 10px 0;
+  cursor: pointer;
+  transition: color 0.2s;
+  display: inline-block;
+}
+
+.file:hover {
+  color: #ff00cc;
+}
+
+audio {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 400px;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
