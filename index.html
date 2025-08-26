@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>REALITY.EXE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="boot-screen">
+    <p>> LOADING VERB_OS v0.0.1</p>
+    <p>> RUNNING REALITY.EXE...</p>
+  </div>
+
+  <div class="interface hidden">
+    <h1>REALITY.EXE</h1>
+
+    <div class="file" onclick="playTrack('HACKED')">🗝 HACKED.exe</div>
+    <div class="file" onclick="playTrack('BLACKCARD')">💳 BLACKCARD.img</div>
+    <div class="file" onclick="playTrack('EMAIL')">📧 EMAIL.smtp</div>
+
+    <audio id="player" controls></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
