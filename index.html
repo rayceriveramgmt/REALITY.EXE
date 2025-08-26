@@ -7,17 +7,22 @@
 </head>
 <body>
 
+  <!-- Boot Screen -->
   <div class="boot-screen">
-    <p>> LOADING VERB_OS v0.0.1</p>
-    <p>> RUNNING REALITY.EXE...</p>
+    <p>> INITIATING VERB_OS v0.0.1</p>
+    <p>> MOUNTING FILE SYSTEM...</p>
+    <p>> CHECKING INTEGRITY...</p>
+    <p>> .WAV FILES VERIFIED [SHA256 OK]</p>
+    <p>> BOOTING INTO REALITY.EXE</p>
   </div>
 
+  <!-- Main Interface -->
   <div class="interface hidden">
     <h1>REALITY.EXE</h1>
 
-    <div class="file" onclick="playTrack('HACKED')">🗝 HACKED.exe</div>
-    <div class="file" onclick="playTrack('BLACKCARD')">💳 BLACKCARD.img</div>
-    <div class="file" onclick="playTrack('EMAIL')">📧 EMAIL.smtp</div>
+    <div class="file" onclick="playTrack('HACKED')">🗝 HACKED.wav.exe</div>
+    <div class="file" onclick="playTrack('BLACKCARD')">💳 BLACKCARD.wav.exe</div>
+    <div class="file" onclick="playTrack('EMAIL')">📧 EMAIL.wav.exe</div>
 
     <audio id="player" controls></audio>
   </div>
@@ -25,3 +30,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
